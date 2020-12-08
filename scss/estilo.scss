@@ -1,0 +1,11 @@
+// Variables y mixins
+@import "variables.scss";
+@import "mixins.scss";
+// estilo global CSS
+@import "global.scss";
+// Componentes
+@import "navbar.scss";
+@import "masthead.scss";
+@import "bootstrap-overrides.scss";
+//animación
+@import "animation.scss"

@@ -1,0 +1,75 @@
+    /*Animaciones */
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /*transiciones*/
+    
+    .imgDestacada {
+        width: 80%;
+        transition: all 2s;
+    }
+    
+    .imgDestacada:hover {
+        width: 100%;
+    }
+    
+    .circle {
+        width: $ancho-sobremi;
+        height: $alto-sobremi;
+        border-radius: 20px;
+        background-color: #111111;
+        transition: all 2s;
+        &:hover {
+            width: $ancho-sobremi*15;
+        }
+    }
+    
+    .circle2 {
+        width: $ancho-sobremi;
+        height: $alto-sobremi;
+        border-radius: 20px;
+        background-color: #111111;
+        transition: all 2s;
+        &:hover {
+            width: ($ancho-sobremi*15)-30;
+        }
+    }
+    
+    .circle3 {
+        width: $ancho-sobremi;
+        height: $alto-sobremi;
+        border-radius: 20px;
+        background-color: #111111;
+        transition: all 2s;
+        &:hover {
+            width: ($ancho-sobremi*15)-50;
+        }
+    }
+    
+    .circle4 {
+        width: $ancho-sobremi;
+        height: $alto-sobremi;
+        border-radius: 20px;
+        background-color: #111111;
+        transition: all 2s;
+        &:hover {
+            width: ($ancho-sobremi*15)-80;
+        }
+    }
+    
+    .circle5 {
+        width: $ancho-sobremi;
+        height: $alto-sobremi;
+        border-radius: 20px;
+        background-color: #111111;
+        transition: all 2s;
+        &:hover {
+            width: ($ancho-sobremi*15)-30;
+        }
+    }
