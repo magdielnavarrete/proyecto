@@ -1,20 +1,20 @@
 {
-  "name": "proyecto-magdiel-navarrete-05",
-  "version": "1.0.0",
-  "description": "Portafolio Magdiel",
-  "main": "gulpfile.js",
-  "directories": {
-    "doc": "doc"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-  },
-  "author": "Magdiel Navarrete",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0",
-    "nodemon": "^2.0.6"
-  }
+    "name": "proyecto-magdiel-navarrete-05",
+    "version": "1.0.0",
+    "description": "Portafolio Magdiel Motion graphic",
+    "main": "gulpfile.js",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "Magdiel Navarrete",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^5.0.0",
+        "nodemon": "^2.0.6"
+    }
 }
