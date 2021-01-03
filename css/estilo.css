@@ -133,6 +133,14 @@ section.masthablemos {
     header.masthead .masthead-content .masthead-subheading {
       font-size: 4rem; } }
 
+@media (max-width: 720px) {
+  section.masthablemos {
+    padding-left: 10%;
+    padding-right: 10%; }
+  section.container.reel {
+    padding-left: 10%;
+    padding-right: 10%; } }
+
 .bg-primary {
   background-color: #FECA38 !important; }
 
